@@ -4,9 +4,9 @@ metadata:
   name: customerprofile
   description: All the profile data, all the time
   labels:
-    system: public-websites
+    system: public-service
   annotations:
-    example.com/service-discovery: artistweb
+    example.com/service-discovery: profile
     circleci.com/project-slug: gh/example-org/artist-website
 spec:
   type: service
