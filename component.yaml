@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer profile
+  description: All the profile data, all the time
+  labels:
+    system: public-websites
+  annotations:
+    example.com/service-discovery: artistweb
+    circleci.com/project-slug: gh/example-org/artist-website
+spec:
+  type: service
+  lifecycle: production
+  owner: customer@example.com
